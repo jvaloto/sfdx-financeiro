@@ -1,0 +1,12 @@
+{
+  "packageDirectories": [
+    {
+      "path": "Financeiro",
+      "default": true
+    }
+  ],
+  "name": "financeiro",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "52.0"
+}

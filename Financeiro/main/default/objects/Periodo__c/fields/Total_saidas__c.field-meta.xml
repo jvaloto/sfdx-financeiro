@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_saidas__c</fullName>
+    <externalId>false</externalId>
+    <label>Total de saídas</label>
+    <summarizedField>Agrupador__c.Total_utilizado__c</summarizedField>
+    <summaryFilterItems>
+        <field>Agrupador__c.Tipo__c</field>
+        <operation>equals</operation>
+        <value>Débito</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Agrupador__c.Periodo__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

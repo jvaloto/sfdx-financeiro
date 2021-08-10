@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estimado__c</fullName>
+    <externalId>false</externalId>
+    <label>Estimado</label>
+    <referenceTo>Estimado__c</referenceTo>
+    <relationshipLabel>Lançamentos</relationshipLabel>
+    <relationshipName>Lancamentos</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>
