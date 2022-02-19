@@ -120,6 +120,7 @@
         <fields>Data__c</fields>
         <fields>Valor__c</fields>
         <fields>Comentarios__c</fields>
+        <fields>Finalidade__c</fields>
         <relatedList>Lancamento__c.Estimado__c</relatedList>
         <sortField>Data__c</sortField>
         <sortOrder>Desc</sortOrder>

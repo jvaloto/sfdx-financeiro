@@ -145,8 +145,8 @@
         <fields>Total_previsto__c</fields>
         <fields>Saldo__c</fields>
         <fields>Total_utilizado__c</fields>
-        <fields>Quantidade_estimados__c</fields>
         <fields>perc_utilizado__c</fields>
+        <fields>Tipo__c</fields>
         <relatedList>Agrupador__c.Periodo__c</relatedList>
         <sortField>perc_utilizado__c</sortField>
         <sortOrder>Asc</sortOrder>

@@ -70,6 +70,12 @@
             </value>
         </inputAssignments>
         <inputAssignments>
+            <field>Data__c</field>
+            <value>
+                <elementReference>inputData</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
             <field>Estimado__c</field>
             <value>
                 <elementReference>getSemana.Id</elementReference>
@@ -219,6 +225,16 @@
             <fieldType>InputField</fieldType>
             <isRequired>true</isRequired>
             <scale>2</scale>
+        </fields>
+        <fields>
+            <name>inputData</name>
+            <dataType>Date</dataType>
+            <defaultValue>
+                <elementReference>dataHoje</elementReference>
+            </defaultValue>
+            <fieldText>Data</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
         </fields>
         <fields>
             <name>inputComentario</name>

@@ -114,6 +114,11 @@
             <actionType>QuickAction</actionType>
             <sortOrder>2</sortOrder>
         </platformActionListItems>
+        <platformActionListItems>
+            <actionName>Agrupador__c.previsto</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>3</sortOrder>
+        </platformActionListItems>
     </platformActionList>
     <relatedLists>
         <excludeButtons>MassChangeOwner</excludeButtons>

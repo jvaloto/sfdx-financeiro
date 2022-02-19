@@ -17,6 +17,7 @@
     <tabs>Lancamento__c</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
+    <tabs>Finalidade__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Lan_amentos_UtilityBar</utilityBar>
 </CustomApplication>
